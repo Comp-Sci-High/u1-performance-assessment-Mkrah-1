@@ -11,6 +11,15 @@ let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "p
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
+weworkItems.pop()
+
+let loanerComp = "loaner laptop"
+
+computerLabItems.push(loanerComp)
+
+computerLabItems[2] = "fixed laptop"
+
+mprItems.length
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------

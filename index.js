@@ -12,14 +12,17 @@ let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice"
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
 weworkItems.pop()
+console.log(weworkItems)
 
 let loanerComp = "loaner laptop"
 
 computerLabItems.push(loanerComp)
+console.log(computerLabItems)
 
 computerLabItems[2] = "fixed laptop"
+console.log(computerLabItems)
 
-mprItems.length
+console.log("There are " + mprItems.length + " MPR Items. There are " + computerLabItems.length + " Computer Lab Items. Lastly, there are " + weworkItems.length + " WeWork Items")
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------

@@ -96,9 +96,15 @@ console.log(raccoonOperation)
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
+function sesame(word){
+    let array = [];
+    for(i = 0; i <= 4; i++){
+        array.push(word);
+    }
+    return "Open Sesame";
+}
 
-
-
+console.log(sesame("Hello"))
 
 
 // Commit and show us to unlock the next floor's instructions
